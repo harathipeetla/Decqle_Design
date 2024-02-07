@@ -1,0 +1,165 @@
+.container {
+  display: flex;
+  font-family: 'Inter';
+}
+
+.heading {
+  color: black;
+  font-size: 30px;
+  font-family: Inter;
+}
+
+.prospects-container-view {
+  background-color: #f2eca5;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+.prospects-container {
+  display: grid;
+  grid-template-columns: auto auto;
+  padding: 20px;
+  grid-gap: 10px;
+  font-family: 'Inter';
+}
+
+.prospects {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  width: 150px;
+  height: 60px;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+
+  background-color: #f7e305;
+  border-radius: 6px;
+  cursor: pointer;
+  padding: 12px;
+  font-family: 'Inter';
+}
+
+.icon {
+  color: #f59520;
+  background-color: #f7e305;
+  font-size: 30px;
+  border-radius: 50%;
+}
+
+.nums {
+  font-size: 22px;
+  font-weight: bold;
+}
+
+.description {
+  color: #d8871c;
+  font-weight: 500;
+  font-size: 18px;
+}
+
+.image-container {
+  background-image: url('https://img.freepik.com/premium-photo/modern-workplace-with-laptop-computer-coffee-cup-office-supplies_67155-3379.jpg');
+  width: 400px;
+  height: 200px;
+  background-size: cover;
+  text-align: right;
+  border-radius: 6px;
+}
+
+.trending-btn {
+  background-color: #f7e305;
+  color: white;
+  margin-top: 171px;
+  padding: 6px 12px 6px 12px;
+  border: none;
+  outline: none;
+  border-top-left-radius: 10px;
+}
+.just-for-you-container {
+  background-color: #f2eca5;
+  padding: 10px;
+  border-radius: 10px;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.just-for-you-container h1 {
+  font-family: 'Inter';
+}
+
+.just-for-you-container span {
+  color: #f7e305;
+}
+
+.just-for-you-container .btn {
+  padding: 6px 12px 6px 12px;
+  background-color: transparent;
+  border: 1px solid rgb(199, 193, 193);
+  border-radius: 6px;
+  margin-right: 10px;
+}
+
+.exhibition-loaction {
+  background-image: url('https://www.google.com/maps/d/u/0/thumbnail?mid=1pVHKR73A7J64f0nW6vB2F9MlK3A&hl=en');
+  width: 400px;
+  height: 200px;
+  text-align: right;
+  border-radius: 6px;
+}
+
+.up-coming-exhibition-view {
+  background-color: #f2eca5;
+  padding: 10px;
+  border-radius: 10px;
+  text-align: center;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+.btn-invite {
+  background-color: #1b72f5;
+  color: white;
+  width: 200px;
+  padding: 10px 12px 10px 12px;
+  border: none;
+  border-radius: 6px;
+}
+
+.popup {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  box-shadow: 0 0 5px 0;
+  background: inherit;
+  color: rgb(16, 124, 232);
+  padding: 15px;
+  text-align: center;
+  backdrop-filter: blur(10px);
+}
+.close-button {
+  background-color: #1b72f5;
+  color: white;
+  width: 200px;
+  padding: 10px 12px 10px 12px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1023px) {
+  .container {
+    grid-gap: 10px;
+  }
+  .prospects-container-view {
+    margin-bottom: 10px;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  .prospects-container-view {
+    margin-bottom: 10px;
+  }
+  .just-for-you-container {
+    margin-bottom: 10px;
+  }
+}

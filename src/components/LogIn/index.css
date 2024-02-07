@@ -1,0 +1,83 @@
+.container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.heading {
+  color: #f5de14;
+  font-family: sans-serif;
+  font-size: 44px;
+  font-weight: 700;
+}
+.heading span {
+  color: #1480f5;
+  font-family: sans-serif;
+}
+
+.description {
+  color: #1480f5;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 22px;
+  font-weight: 500;
+}
+
+.input-label-container {
+  display: flex;
+  flex-direction: column;
+  height: 100px;
+}
+
+.label-text {
+  color: #c7ccd1;
+  font-weight: 500;
+  font-family: monospace;
+  padding: 5px;
+  font-size: 22px;
+}
+
+.input-area {
+  padding: 12px 6px 12px 6px;
+  outline: none;
+  border-radius: 6px;
+  border: 1px solid #1480f5;
+}
+
+.sign-up-btn {
+  padding: 8px 16px 8px 16px;
+  background-color: #9dc6f2;
+  border: none;
+  border-radius: 6px;
+}
+
+.sign-up-btn-active {
+  background-color: #1480f5;
+  color: #fff;
+  font-weight: 500;
+  border: none;
+  border-radius: 6px;
+  padding: 8px 16px 8px 16px;
+}
+
+.error-message {
+  color: #e6252e;
+}
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+  .container {
+    display: flex;
+    flex-direction: column;
+  }
+  .form-page-section {
+    order: 2;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  .container {
+    display: flex;
+    flex-direction: column;
+  }
+  .form-page-section {
+    order: 2;
+  }
+}
